@@ -1,0 +1,39 @@
+detail du site:
+-boutique d'article
+-configurateur clavier
+-contact
+-explication fonctionnement des pièces
+-espace client
+
+article en vente:
+-keycaps
+-switch
+-case
+-pcb
+-mousse
+-stabilisateur
+
+
+legislation:
+-cgv
+-contrat dropshipping entre commerce et fournisseur
+-condition de retour
+-condition d'achat
+-listage fournisseur
+
+
+boutique d'article:
+section de vente classique en fonction de chaque type d'article, pieces au details
+
+configurateur clavier:
+configurateur clavier comme configomatic sur topachat pour les pc
+vérifier la compatibilité des pièces entre elle
+
+contact:
+possibilité de contacter le commerce pour question ou autre
+
+explication fonctionnement des pièces:
+vue eclaté en mode cartoon de chaque pièces avec detail du fonctionnement
+
+espace client:
+recapitulatif des information client avec historique de commande
