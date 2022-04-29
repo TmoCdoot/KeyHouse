@@ -1,9 +1,10 @@
 detail du site:
--boutique d'article
--configurateur clavier
--contact
--explication fonctionnement des pièces
--espace client
+-accueil ✅
+-boutique d'article ✅
+-configurateur clavier ✅
+-contact ✅
+-explication fonctionnement des pièces ✅
+-espace client ✅
 
 article en vente:
 -keycaps

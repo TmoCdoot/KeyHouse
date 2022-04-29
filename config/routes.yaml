@@ -8,6 +8,29 @@ kernel:
 
 #defind route
 
-home:
+accueil:
     path: /
-    controller: App\Controller\HomeController::index
+    controller: App\Controller\AccueilController::index
+
+boutique:
+    path: /boutique
+    controller: App\Controller\BoutiqueController::index
+
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::index
+
+detail:
+    path: /detail
+    controller: App\Controller\DetailController::index
+
+espaceclient:
+    path: /espaceclient
+    controller: App\Controller\EspaceClientController::index
+
+keylaboratory:
+    path: /keylaboratory
+    controller: App\Controller\KeyLaboratoryController::index
+
+
+    
