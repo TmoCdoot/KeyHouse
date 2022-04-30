@@ -1,10 +1,18 @@
 {{ component('header') }}
-<ul>
-    <li><a href="/">accueil</a></li>
-    <li><a href="boutique">boutique</a></li>
-    <li><a href="contact">contact</a></li>
-    <li><a href="detail">detail</a></li>
-    <li><a href="espaceclient">espace client</a></li>
-    <li><a href="keylaboratory"> key labo</a></li>
-</ul>
-{{ component('footer') }}
+<nav>
+    <div class="nav-link">
+        <ul class="ul-link">
+            <li class="li-img-logo"><img src="{{ asset('images/LOGO.png') }}" alt=""></li>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="boutique">Boutique</a></li>
+            <li><a href="keylaboratory">KeyLabo</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="nav-user">
+        <ul class="ul-user">
+            <li><a href=""><img src="{{ asset('images/cart.png') }}" alt=""></a></li>
+            <li><a href="espaceclient"><img src="{{ asset('images/user.png') }}" alt=""></a></li>
+        </ul>
+    </div>
+</nav>
