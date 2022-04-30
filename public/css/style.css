@@ -1,0 +1,83 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+html {
+    font-family: roboto;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+/* nav */
+
+nav {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-link {
+    /*border: 1px solid green;*/
+    width: 40%;
+    padding: 15px 0px;
+    min-width: 700px;
+}
+.ul-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+}
+.li-img-logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.li-img-logo img {
+    width: 50px;
+}
+.ul-link li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-user {
+    /*border: 1px solid green;*/
+    width: 150px;
+    padding: 15px 30px;
+}
+.ul-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.ul-user li a {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.ul-user li a img {
+    width: 30px;
+}
+
+/* acceuil */
+
+.contener {
+    border: 1px solid blue;
+    height: 100%;
+    background: no-repeat center/100% url(../images/bc1.png);
+    background-position: center top -50px;
+}
